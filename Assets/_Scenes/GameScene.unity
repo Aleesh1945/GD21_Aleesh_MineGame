@@ -1097,7 +1097,7 @@ Transform:
   m_GameObject: {fileID: 1606899756}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 3.1899998, z: -5.5}
+  m_LocalPosition: {x: 0, y: 1.69, z: -5.5}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1232,7 +1232,7 @@ Transform:
   m_GameObject: {fileID: 1642967611}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 3.1899998, z: -5.5}
+  m_LocalPosition: {x: 0, y: 1.69, z: -5.5}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1683,7 +1683,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7475512616211273188, guid: 41d4e987cefccd24bac5138a113c4245, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -1.1783072
+      value: 1.03
       objectReference: {fileID: 0}
     - target: {fileID: 7475512616211273188, guid: 41d4e987cefccd24bac5138a113c4245, type: 3}
       propertyPath: m_LocalPosition.z
@@ -1777,38 +1777,13 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 827534763236787546, guid: 4fa5e052c85fc6f4288421268b000ac9, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 5039514878538700879}
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4fa5e052c85fc6f4288421268b000ac9, type: 3}
 --- !u!4 &5039514878538700877 stripped
 Transform:
-  m_CorrespondingSourceObject: {fileID: 6749953907797031108, guid: 4fa5e052c85fc6f4288421268b000ac9, type: 3}
+  m_CorrespondingSourceObject: {fileID: 4824027781513152927, guid: 4fa5e052c85fc6f4288421268b000ac9, type: 3}
   m_PrefabInstance: {fileID: 5039514878538700876}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &5039514878538700878 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 827534763236787546, guid: 4fa5e052c85fc6f4288421268b000ac9, type: 3}
-  m_PrefabInstance: {fileID: 5039514878538700876}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &5039514878538700879
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5039514878538700878}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5f33b36868c6d1b4bb620a2f5aee0ce0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  mouseSensitivity: 0.3
-  minVerticalAngle: -30
-  maxVerticalAngle: 60
-  currentYaw: 0
-  currentPitch: 20
 --- !u!1001 &5345816585673597335
 PrefabInstance:
   m_ObjectHideFlags: 0

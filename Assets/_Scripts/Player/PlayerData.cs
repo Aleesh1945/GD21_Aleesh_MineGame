@@ -1,16 +1,21 @@
 using UnityEngine;
 
-public class PlayerData : MonoBehaviour
-{
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
+    [CreateAssetMenu(fileName = "PlayerData",menuName = "Game Data/Player Data",order = 0)]
+    public class PlayerData : ScriptableObject
     {
-        
+        [Header("Основные характеристики")]
+        [Min(1f)]
+        public float maxHealth = 100f;
+        [Min(0f)]
+        public float maxMana = 50f;
+        [Header("Движение")]
+        [Min(0f)]
+        public float moveSpeed = 5f;
+        [Min(0f)]
+        public float jumpForce = 5f;
+        [Header("Дополнительные параметры движения")]
+        [Min(0f)]
+        public float acceleration = 10f;
+        [Min(0f)]
+        public float rotationSpeed = 720f; // градусов в секунду
     }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
-}
